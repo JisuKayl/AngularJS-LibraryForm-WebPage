@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+
+label {
+  color: white;
+  font-size: 1.3rem;
+  padding-block: 0.5rem;
+}
+
+input {
+  height: 2rem;
+  padding-inline: 1rem;
+  width: 100%;
+}
+
+.imageWrap {
+  padding: 2rem;
+  padding-block: 10rem;
+  margin-top: 3rem;
+  width: 60%;
+  height: 100%;
+  background-color: black;
+}
+
+.bookList {
+  width: 100%;
+  padding-inline: 2rem;
+}
+
+.studentWrap {
+  width: 40%;
+}
+
+.studentWrap {
+  padding: 2rem;
+  margin-top: 3rem;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageDescription {
+  color: white;
+  padding: 2rem;
+  font-size: 1.4rem;
+}
+
+.formWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.requestWrap {
+  display: flex;
+}
+
+.nameWrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.imageDescription,
+.requestHeader {
+  margin-top: -10%;
+}
+
+textarea {
+  padding: 1rem;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 3rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  white-space: nowrap;
+  border: none;
+  border-radius: 20px;
+  margin: 1rem;
+}
+
+button:hover {
+  background-color: greenyellow;
+}

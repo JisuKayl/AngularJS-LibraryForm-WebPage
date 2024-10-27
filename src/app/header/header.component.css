@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bookLogo {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.header_wrap {
+  background-color: black;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 13vh;
+}
+
+.headerText {
+  color: white;
+  font-size: 3rem;
+  margin-right: -7rem;
+}
+
+.headerNav ul li {
+  display: inline;
+  list-style: none;
+}
+
+.headerNav ul li a {
+  display: inline-block;
+  padding: 1rem;
+  text-decoration: none;
+  color: greenyellow;
+  font-size: 2rem;
+}
+
+.headerNav ul li a:hover {
+  text-decoration: underline;
+}

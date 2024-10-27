@@ -1,0 +1,49 @@
+<div class="requestWrap">
+  <div class="imageWrap">
+    <p class="imageDescription">
+      Are you eager to delve into a new literary adventure? Submit a book
+      request today and unlock a world of knowledge and imagination! Whether
+      you're seeking a captivating novel, an insightful biography, or a
+      comprehensive guide, our library is here to cater to your literary
+      cravings. Simply provide us with the title, author, and any specific
+      edition details, and our dedicated team will swiftly locate the book from
+      our vast collection. With our seamless request process, you'll soon be
+      embarking on a journey through the pages of your desired read. Don't
+      hesitate to explore new horizons—submit your book request now and let the
+      magic of literature unfold!
+    </p>
+    <img class="bookList" [src]="bookList" alt="Book List" />
+  </div>
+  <div class="studentWrap">
+    <h2 class="requestHeader">Library Book Request Form</h2>
+    <div class="formWrap">
+      <label for="student_name">Student Name</label>
+      <div class="nameWrap">
+        <input id="student_name" type="text" placeholder="First Name" />
+        <input type="text" placeholder="Last Name" />
+      </div>
+      <label for="student_id">Student ID</label>
+      <input id="student_id" type="text" placeholder="Enter your student ID" />
+      <label for="library_id">Library ID</label>
+      <input id="library_id" type="text" placeholder="Enter your library ID" />
+      <label for="book_title">Book Title</label>
+      <input id="book_title" type="text" placeholder="Enter the book title" />
+      <label for="book_author">Book Author</label>
+      <div class="nameWrap">
+        <input id="book_author" type="text" placeholder="First Name" />
+        <input type="text" placeholder="Last Name" />
+      </div>
+      <label for="more_info"
+        >Please input further details about the book you are requesting</label
+      >
+      <textarea
+        name="details"
+        id="more_info"
+        cols="30"
+        rows="10"
+        placeholder="Enter further details"
+      ></textarea>
+    </div>
+    <button>Send Request</button>
+  </div>
+</div>
